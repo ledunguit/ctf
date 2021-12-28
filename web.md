@@ -29,7 +29,7 @@ Ta thấy đối với payload này, trang web không trả về kết quả nà
 Ta sẽ thực hiện list tất cả các file nằm ở thư mục / (root) của hệ thống bằng payload:
 
 ```
-O:10:%22exploit_me%22:1:%7Bs:3:%22cmd%22;s:10:%22/???/d?r%20/%22;%7D
+O:10:"exploit_me":1:{s:3:"cmd";s:10:"/???/d?r /";}
 ```
 
 Như vậy ta thấy hệ thống file được hiển thị ra, ta cần nội dung file ```a8749209e3d652e_flag```, do đó ta sẽ đổi payload sang:
